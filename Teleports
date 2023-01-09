@@ -1,0 +1,9 @@
+            --TeleportButtons
+            TeleportTab:AddButton({
+                Name = "Teleport",
+                Callback = function()
+                    if getgenv().TPPlace == "Brickeolia [Dirt Job]" then
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(903.3091430664062, 3.8750486373901367, 807.9028930664062)
+                    end
+                  end    
+            })
